@@ -1,4 +1,5 @@
 import nestor from "./nestor.jpg";
-import mariano from "./nestor.jpg";
+import manuel from "";
+import mariano from "";
 
-export default [nestor, mariano];
+export default [nestor, manuel, mariano];
