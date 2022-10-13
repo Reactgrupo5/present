@@ -17,6 +17,7 @@ const Card = () => {
     <div id="card">
       <h1>LUPI BORRAR2</h1>
       <h1>LUPI BORRAR3</h1>
+      <h1>BORRAR 444</h1>
       <div id="personal">
         <h2>Tarjeta Personal</h2>
         <h3>Nombre: {nosotros[index].name} </h3>
