@@ -15,7 +15,7 @@ const Card = () => {
 
   return (
     <div id="card">
-      <h1>PRESENTACION GRUPO 5 de la COMISION 22805</h1>
+      <h1>LUPI BORRAR</h1>
       <div id="personal">
         <h2>Tarjeta Personal</h2>
         <h3>Nombre: {nosotros[index].name} </h3>
