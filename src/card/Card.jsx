@@ -17,13 +17,18 @@ const Card = () => {
     <div id="card">
       <h1>PRESENTACION GRUPO 5 de la COMISION 22805</h1>
       <div id="personal">
-        <h2>Tarjeta Personal</h2>
-        <h3>Nombre: {nosotros[index].name} </h3>
-        <h3>Edad:{nosotros[index].age}</h3>
-        <img src={nosotros[index].image} alt="" id="img" />
-        <br />
-        <button onClick={siguiente}>Mostrar Siguiente</button>
+        <div id="data">
+          <h2>Tarjeta Personal</h2>
+          <h3>Nombre: {nosotros[index].name} </h3>
+          <h3>Edad:{nosotros[index].age}</h3>
+        </div>
+        <div id="image">
+          <img src={nosotros[index].image} alt="" id="img" />
+        </div>
       </div>
+
+      <br />
+      <button onClick={siguiente}>Mostrar Siguiente</button>
     </div>
   );
 };
