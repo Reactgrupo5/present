@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+head{
+    margin: 5%;
+    padding: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:aqua;
+}
+.dropdown{
+    margin-right: 5%;
+}
+nav{
+    margin-top: 10%;
+    padding: 10%;
+    background-color: aquamarine;
+}
+#naviz{
+    margin-right: 20%;
+
+}
+footer{
+    margin-top: 10%;
+    padding: 10%;
+    background-color: aquamarine;
+
+}
+
+
+.foot{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
